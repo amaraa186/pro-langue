@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Box, Flex, Text, Heading, Image } from "gestalt"
 import Choices from "./Choices";
 import Prices from "./Prices";
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
             </Box>
             <Box paddingX={4} paddingY={6}>
                 <Heading size="500">ТАНД САНАЛ БОЛГОХ БАГЦУУД</Heading>
+                <Box height={20} />
                 <Prices />
             </Box>
         </Box>
