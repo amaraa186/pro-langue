@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Box, Flex } from 'gestalt'
 import Navigation from './components/Navigation';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Footer from './components/Footer';
 
 function App() {

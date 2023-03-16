@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Box, Flex, Text, Heading, Image } from "gestalt"
-import Choices from "./Choices";
-import Prices from "./Prices";
-import Footer from './Footer';
+import Choices from "../components/Choices";
+import Prices from "../components/Prices";
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
